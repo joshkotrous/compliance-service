@@ -1,8 +1,6 @@
-# Nabis Engineering Manager
+# compliance-service
 
-## Josh Kotrous
-
-Hi Chris and team 👋 thanks for reviewing my solution to this portion of the interview process! Within this repository you will find the following files and folders:
+My solution consists of the following files and folders:
 
 ```
 ├── ADR
@@ -12,7 +10,7 @@ Hi Chris and team 👋 thanks for reviewing my solution to this portion of the i
 │   ├── compliance-service-output-schema.json
 │   └── state-configuration-schema.json
 ├── Diagrams
-│   └── Nabis Compliance Service - System Diagram.pdf
+│   └── Compliance Service - System Diagram.pdf
 ├── Project Proposal.pdf
 ├── README.md
 └── Solution
@@ -32,7 +30,7 @@ Hi Chris and team 👋 thanks for reviewing my solution to this portion of the i
 - `Data Schema/compliance-service-input-schema.json` - the data schema of the input to be provided to the Compliance Service.
 - `Data Schema/compliance-service-output-schema.json` - the data schema of the output to be returned by the Compliance Service.
 - `Data Schema/state-configuration-schema.json` - the data schema of the configuration file we will store for each state.
-- `Diagrams/Nabis Compliance Service - System Diagram.pdf` - diagrams to show the design of the system organized into Level 0 and Level 1 aggregation levels.
+- `Diagrams/Compliance Service - System Diagram.pdf` - diagrams to show the design of the system organized into Level 0 and Level 1 aggregation levels.
 - `Project Proposal.pdf` - a set of slides summarizing the solution design, project management considerations, and how I would ensure the successful and timely delivery.
 - `Solution/compliance-service` - my source code for the compliance service module.
   - `compliance-service/state_configuration` - Temporary state configuration data store for unit tests.
@@ -46,15 +44,13 @@ Hi Chris and team 👋 thanks for reviewing my solution to this portion of the i
 - `Solution/lambda-layer.zip` - the layer I deployed to AWS Lambda for the API example.
 - `Solution/lambda.zip` - the Lambda I built for the API example that consumes the compliance service layer.
 
-I look forward to diving into my proposed solution and hearing your feedback and questions!
-
-**Update July 28:** Since I had some more time to spend on this over the weekend, I experimented with making the module portable to AWS as a Lambda layer and deployed it to a public API. You can try it out with a `POST` request to `https://w3yh6cyjkggzpsn6dcm5tchokm0fxevg.lambda-url.us-east-1.on.aws/` with the following body:
+I experimented with making the module portable to AWS as a Lambda layer and deployed it to a public API. You can try it out with a `POST` request to `https://w3yh6cyjkggzpsn6dcm5tchokm0fxevg.lambda-url.us-east-1.on.aws/` with the following body:
 
 ```
 {
   "product": {
       "productId": "4e7a3c97-8dcd-4d8d-a9f8",
-      "productName": "Skywalker OG",
+      "productName": "Product",
       "strain": "sativa",
       "netWeight": "3.5g",
       "thcContent": "28.4%",
@@ -67,11 +63,8 @@ I look forward to diving into my proposed solution and hearing your feedback and
 }
 ```
 
-**Update July 31:** With the additional time I had I added unit tests built with Jest to the compliance service module. These unit tests could be ran from the CI/CD pipeline when new PRs are opened and/or merged to ensure breaking changes never make it into the repository. The unit tests can be ran with:
+I added unit tests built with Jest to the compliance service module. These unit tests could be ran from the CI/CD pipeline when new PRs are opened and/or merged to ensure breaking changes never make it into the repository. The unit tests can be ran with:
 
 - `cd solution/compliance-service`
 - `npm install`
 - `npm test`
-
-Thanks,\
-Josh Kotrous

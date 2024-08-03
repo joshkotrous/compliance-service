@@ -1,0 +1,30 @@
+{
+  "state_code": "NY",
+  "config": {
+    "stateSpecificFields": {
+      "warningLabel": "WARNING: THIS IS FOR NEW YORK",
+      "governmentWarning": "WARNING: THIS IS FOR NEW YORK",
+      "newyorkSpecificWarning": "WARNING: THIS IS FOR NEW YORK",
+      "healthRisks": "May cause health risks including addiction",
+      "noDriving": "Do not operate a vehicle under the influence",
+      "localTaxes": "Subject to local and state taxes",
+      "possessionLimit": "Possession limit: 1 ounce",
+      "thirdPartyTesting": "Tested by third-party labs for quality assurance",
+      "storageInstructions": "Store in a cool, dry place",
+      "medicalUseOnly": "For medical use only"
+    },
+    "requiredProductInfo": [
+      "productName",
+      "netWeight",
+      "thcContent",
+      "cbdContent",
+      "batchNumber",
+      "manufacturingDate",
+      "packagingType",
+      "isChildSafe",
+      "terpeneProfile",
+      "nyAppendixQ",
+      "recommendedDosage"
+    ]
+  }
+}

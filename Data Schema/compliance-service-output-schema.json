@@ -1,0 +1,19 @@
+{
+    "productId": "",
+    "states": [{
+        "state": "",
+        "isCompliant": true,
+        "requiredProductInfo": {
+            "warningLabel": "",
+            "governmentWarning": "",
+            "productName": "",
+            "netWeight": "",
+            "thcContent": "",
+            "cbdContent": "",
+            "batchNumber": "",
+            "manufacturingDate": "",
+            "manufacturer": ""
+        }
+    }]
+}
+

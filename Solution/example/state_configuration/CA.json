@@ -1,0 +1,39 @@
+{
+  "state_code": "CA",
+  "config": {
+    "stateSpecificFields": {
+      "warningLabel": "WARNING: THIS IS FOR CALIFORNIA",
+      "governmentWarning": "WARNING: THIS IS FOR CALIFORNIA",
+      "californiaSpecificWarning": "WARNING: THIS IS FOR CALIFORNIA",
+      "ageRestriction": "Must be 21 years or older",
+      "localTaxes": "Subject to local and state taxes",
+      "storageInstructions": "Store in a cool, dry place",
+      "possessionLimit": "Possession limit: 1 ounce",
+      "noPregnancyUse": "Not for use during pregnancy or breastfeeding",
+      "thirdPartyTesting": "Tested by third-party labs for quality assurance",
+      "medicalUseOnly": "For medical use only",
+      "sideEffects": "Possible side effects include dizziness and dry mouth",
+      "healthRisks": "May cause health risks including addiction",
+      "stateLicenseNumber": "California License Number: XXXX-XXXX",
+      "keepAwayFromChildren": "Keep out of reach of children",
+      "noDriving": "Do not operate a vehicle under the influence",
+      "legalDisclaimer": "Complies with California state regulations"
+    },
+    "requiredProductInfo": [
+      "productName",
+      "netWeight",
+      "thcContent",
+      "cbdContent",
+      "batchNumber",
+      "manufacturingDate",
+      "packagingType",
+      "isChildSafe",
+      "terpeneProfile",
+      "caAppendixL"
+    ],
+    "fieldMapping": {
+      "thcContent": "thcPercentage",
+      "cbdContent": "cbdPercentage"
+    }
+  }
+}

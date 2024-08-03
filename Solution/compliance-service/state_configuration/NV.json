@@ -1,0 +1,30 @@
+{
+  "state_code": "NV",
+  "config": {
+    "stateSpecificFields": {
+      "warningLabel": "WARNING: THIS IS FOR NEVADA",
+      "governmentWarning": "WARNING: THIS IS FOR NEVADA",
+      "nevadaSpecificWarning": "WARNING: THIS IS FOR NEVADA",
+      "ageRestriction": "Must be 21 years or older",
+      "legalDisclaimer": "Complies with Nevada state regulations",
+      "possessionLimit": "Possession limit: 1 ounce",
+      "sideEffects": "Possible side effects include dizziness and dry mouth",
+      "medicalUseOnly": "For medical use only",
+      "keepAwayFromChildren": "Keep out of reach of children",
+      "storageInstructions": "Store in a cool, dry place",
+      "thirdPartyTesting": "Tested by third-party labs for quality assurance"
+    },
+    "requiredProductInfo": [
+      "productName",
+      "netWeight",
+      "thcContent",
+      "cbdContent",
+      "batchNumber",
+      "manufacturingDate",
+      "packagingType",
+      "isChildSafe",
+      "terpeneProfile",
+      "nvAppendixC"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "state_code": "",
+  "config": {
+      "stateSpecificFields": {
+        "warningLabel": "",
+        "governmentWarning": ""
+      },
+      "requiredProductInfo": [
+        "productName",
+        "netWeight",
+        "thcContent",
+        "cbdContent",
+        "batchNumber",
+        "manufacturingDate"
+      ],
+      "fieldMapping": {
+        "thcContent": "thcPercentage",
+        "cbdContent": "cbdPercentage"
+      }
+
+  }
+
+}
